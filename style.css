@@ -1,0 +1,222 @@
+/* *{
+    border: 1px solid red;
+    font-family: 'Roboto', sans-serif; 
+}  */
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    z-index: -1;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.navbar-title{
+    color: white;
+    flex-grow: 1;
+    width: 30px;
+    padding-left: 70px;
+    font-weight: 70;
+    font-size: large;
+}
+
+.nav-items{
+    padding-top: 10px;
+    flex-grow: 2;
+    padding-left: 0px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.nav-unit{
+    font-size: small;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.bg-img{
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    margin-top: -100px;
+}
+
+.main-image{
+    color: white;
+    z-index: 1;
+    height: 5em;
+    justify-content: center;
+    display: flex;
+    font-size: 7em;
+    align-content: center;
+    margin-top: -25%;
+    font-weight: 75;
+    padding-bottom: 0px;
+}
+
+#raisin-in-sun{
+    background-color: white;
+}
+
+.raisin-background{
+    background-color: white;
+    margin: 200px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    padding-top: 100px;
+}
+
+.date-title{
+    display: flex;
+    justify-content:left;
+    border: 1px solid black;
+    background-color: rgba(211, 211, 211, 0.705);
+    height: 30px;
+    width: 1210px;
+    margin-bottom: 30px;
+    margin-left: 193px;
+}
+
+.date-p{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    margin-top: 3px;
+    margin-left: 35px; 
+    font-size: 20px;
+}
+
+.raisin-second-bg{
+    margin: 10px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.show-dates{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.raisin-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.show-pic{
+    width: 150px;
+}
+
+.show-h2{
+    margin: 0px;
+    padding: 0px;
+    height: 30px;
+    width: 300px;
+    margin-left: 60px;
+    margin-right: 225px;
+    font-weight: 3;
+    z-index: 1;
+}
+
+h2{
+    margin: 0px;
+    font-weight: 700;
+}
+
+.read-more-button{
+    background-color: rgb(250, 189, 77);
+    height: 45px;
+    width: 110px;
+    font-size: 19px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 45px;
+    border: 1px solid black;
+}
+
+.read-more-link{
+    margin-top: 10px;
+}
+
+.show-date-range{
+    font-weight: 600;
+}
+
+.show-hr{
+   margin-bottom: 35px;
+   margin-top: 15px;
+   width: 1210px;
+}
+
+.last-show-hr{
+    margin-bottom: 0px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    padding-bottom: 50px;
+}
+
+.map{
+    width: 300px;
+    margin-top: 50px;
+    padding-left: 100px;
+}
+
+.footer-title{
+    font-size: 2em;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.footer-p{
+    margin-left: 50px;
+    margin-top: 45px;
+    font-size: 13px;
+}
+
+.footer-icon{
+    color: rgba(253, 178, 39, 0.909);
+}
+
+.platform{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+.social{
+    margin-left: 150px;
+}
+
+.footer-shows{
+    margin-left: 100px;
+}
+
+.shows-list{
+    margin-left: 50px;
+}
